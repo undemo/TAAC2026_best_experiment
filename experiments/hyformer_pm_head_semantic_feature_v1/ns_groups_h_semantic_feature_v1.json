@@ -1,0 +1,15 @@
+{
+  "_purpose": "H-SemanticFeature-v1 NSGroup-v3-item4 semantic grouping. Used with --ns_tokenizer_type group.",
+  "_note": "3 user_int group tokens + 1 user_dense token + 4 item_int group tokens + 1 TimeToken = 9 NS tokens; RankMixer input T stays 17 when num_queries=2 and four sequence domains are present.",
+  "user_ns_groups": {
+    "U_low_context": [1, 48, 49, 50, 51, 52, 55, 58, 59, 60],
+    "U_profile_stat_shared": [3, 4, 15, 53, 54, 56, 57, 62, 63, 64, 65, 66, 86],
+    "U_compact_tail_flags": [80, 82, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+  },
+  "item_ns_groups": {
+    "I_low_card": [9, 13, 81, 83, 84, 85],
+    "I_mid_behavior_a": [10, 11],
+    "I_mid_behavior_b": [12, 16],
+    "I_high_id_like": [5, 6, 7, 8]
+  }
+}
